@@ -22,6 +22,21 @@ To write a Python program that takes a list of scores from participants and find
 
 ADD CODE HERE
 
+n = int(input())
+
+scores = list(map(int, input().split()))
+
+unique_scores = list(set(scores))
+
+unique_scores.sort()
+
+print(unique_scores[-2])
+
 ## OUTPUT
 
+![442608516-681586b6-030a-499a-9766-817d90cba0a1](https://github.com/user-attachments/assets/af5472ab-ae16-46d5-b4fc-f4f588b7765e)
+
+
 ## RESULT
+
+Thus,the program is executed successfully
